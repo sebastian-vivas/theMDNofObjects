@@ -17,7 +17,6 @@ _console.log(Object.key(gardner).length);_
 
 Notice the property **.length** highlighted in the example. Properties are preceded by a dot operator. This allows you to access the property in Javascript, without it, the property will not initialize. Properties do not contain parameters, so they will never contain a set of parentheses at the end. The property .length, in this case, allows you to retrieve the length or total of a string object. The return would be 11, for the total amount of characters, including spaces, in the string, ‘We out here’. There are several properties at your disposal built into Javascript. Familiarize yourself with the syntax for properties, this will help you build objects. Next, let's take a look at **methods**. 
 
-## example ##
 Methods 
 By Ilunga
 
