@@ -17,10 +17,27 @@ _console.log(Object.key(gardner).length);_
 
 Notice the property **.length** highlighted in the example. Properties are preceded by a dot operator. This allows you to access the property in Javascript, without it, the property will not initialize. Properties do not contain parameters, so they will never contain a set of parentheses at the end. The property .length, in this case, allows you to retrieve the length or total of a string object. The return would be 11, for the total amount of characters, including spaces, in the string, ‘We out here’. There are several properties at your disposal built into Javascript. Familiarize yourself with the syntax for properties, this will help you build objects. Next, let's take a look at **methods**. 
 
+## example ##
+Methods 
+By Ilunga
 
+_Methods can be confusing to understand at first. Here are a few examples that break it down in the simplest form._
+                                                  *Primitive Methods* 
+_ Although they’re primitive type strings, numbers, and Booleans have methods._
 
+_ However nuLL and undefined types have no methods but they are still primitive._
 
+ _All primitives are unchangeable meaning they cannot be altered._
 
+                                    *Object Methods*
+ _Whenever a property value is a function, the property is considered a method._
+
+ _you can also add a method to an object in the same way that you would add a property._
+ 
+_ You can call a method directly from an object as for example person.sayName(“Name”)._
+
+                                      *The call () Method* 
+                       *Here’s an example of the function call () Method*
 
 
 ##Deleting a property from an object## 
@@ -40,32 +57,7 @@ By: Thais Nascimento
 - MyObject.propertyB=undefined 
 
 
-## Object-Oriented Programming ##
-* What is OOP?
-  * Object-oriented programming (OOP) is a way of writing computer programs which is using the idea of "objects" to represent data and methods.
-* Why is OOP useful?
-  * OOP allows us to redefine and manipulate the properties/values of an object. 
-* The Basics, the Four Pillars of OOP:
-  * Encapsulation: When an object has various properties grouped together under functionality. 
-  * Inheritance: When an object inherits other properties from another object. 
-  * Polymorphism: When an object share similar properties under different programming environments
-  * Abstraction: When an object hides unwanted details while showing the most essential property values.
-* Encapsulation:
-  * Example: user form. A form captures information about a person and can be created into key-value data properties.
-  * Popular methods used: Object Constructor
-  ![Encapsulation]()
-* Inheritance:
-  * Example: a button that has similar properties but may have a different text inside the button itself or same color; different sizing
-  * Popular Methods used: Prototype
-  ![Inheritance]()
-* Polymorphism:
-  * Example: having one object called shape within one interface but has multiple function like circle, rectangle, triangle.
-  * Popular Methods used: Extends
-  * ![Polymorphism]()
-* Abstraction:
-  * Example: Calculate the area of shapes for different shapes, only writing the function once within the global environments.
-  * Popular Methods used: document.write and Math.sqrt
-  * ![Abstraction]()
+
  
 
 
@@ -95,24 +87,30 @@ Constructors
 -Object.create method- uses already existing object as prototype
 
 
-## example ##
-Methods 
-By Ilunga
 
-_Methods can be confusing to understand at first. Here are a few examples that break it down in the simplest form._
-                                                  *Primitive Methods* 
-_ Although they’re primitive type strings, numbers, and Booleans have methods._
-
-_ However nuLL and undefined types have no methods but they are still primitive._
-
- _All primitives are unchangeable meaning they cannot be altered._
-
-                                    *Object Methods*
- _Whenever a property value is a function, the property is considered a method._
-
- _you can also add a method to an object in the same way that you would add a property._
- 
-_ You can call a method directly from an object as for example person.sayName(“Name”)._
-
-                                      *The call () Method* 
-                       *Here’s an example of the function call () Method*
+## Object-Oriented Programming ##
+* What is OOP?
+  * Object-oriented programming (OOP) is a way of writing computer programs which is using the idea of "objects" to represent data and methods.
+* Why is OOP useful?
+  * OOP allows us to redefine and manipulate the properties/values of an object. 
+* The Basics, the Four Pillars of OOP:
+  * Encapsulation: When an object has various properties grouped together under functionality. 
+  * Inheritance: When an object inherits other properties from another object. 
+  * Polymorphism: When an object share similar properties under different programming environments
+  * Abstraction: When an object hides unwanted details while showing the most essential property values.
+* Encapsulation:
+  * Example: user form. A form captures information about a person and can be created into key-value data properties.
+  * Popular methods used: Object Constructor
+  ![Encapsulation]()
+* Inheritance:
+  * Example: a button that has similar properties but may have a different text inside the button itself or same color; different sizing
+  * Popular Methods used: Prototype
+  ![Inheritance]()
+* Polymorphism:
+  * Example: having one object called shape within one interface but has multiple function like circle, rectangle, triangle.
+  * Popular Methods used: Extends
+  * ![Polymorphism]()
+* Abstraction:
+  * Example: Calculate the area of shapes for different shapes, only writing the function once within the global environments.
+  * Popular Methods used: document.write and Math.sqrt
+  * ![Abstraction]()
