@@ -55,12 +55,6 @@ By: Thais Nascimento
 **Syntax for setting an objecto to undefined:**
 - MyObject.propertyB=undefined 
 
-
-
- 
-
-
-
 ## Creating Objects ##
 By: Elmer Osorio Jr
 
